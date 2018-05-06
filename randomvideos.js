@@ -6,8 +6,7 @@ var videos = [
 'AgV8782kQ3I',
 '2ENQEuUOmuA',
 'Jk9rh7LBEc8',
-'9dC9TComymQ','iRqgP2C2h7o
-','EWxevt0MrwI'];
+'9dC9TComymQ',];
 
 var index=Math.floor(Math.random() * videos.length);
 var html='<iframe style="padding: 16px 0;height:250px;" src="https://www.youtube.com/embed/' + videos[index] + '" allowfullscreen></iframe>';
